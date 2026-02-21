@@ -61,24 +61,38 @@ const ORDERS_STORAGE_KEY = "discovery-orders-v1";
 const starterItems: CreatorItem[] = [
   {
     id: "starter-1",
-    name: "Shea Glow Body Butter",
-    business: "Melanin Bloom Naturals",
-    category: "Lifestyle",
-    description: "Hydrating whipped shea butter with citrus scent.",
+    name: "Event Decor Balloon Kit",
+    business: "Hug's Creations - Ballooon Artiste et Artisan",
+    category: "Art/Entertainment",
+    description: "Really cool party kits.",
   },
   {
     id: "starter-2",
-    name: "Kente Street Tote",
-    business: "Rooted Thread Co.",
+    name: "African Black Soap & Cotton Loofah Bag",
+    business: "kerl beauty",
     category: "Fashion",
-    description: "Everyday tote made with Ghana-inspired print details.",
+    description: "Bag of goodies to help skincare",
   },
   {
     id: "starter-3",
-    name: "Jollof Spice Blend",
-    business: "Savor Diaspora Kitchen",
+    name: "Lavender Headband",
+    business: "Coral Earth Finery",
+    category: "Accessories",
+    description: "Headband infused with lavender for a calming scent.",
+  },
+    {
+    id: "starter-4",
+    name: "à la mod-endo rosé",
+    business: "How to Bloom Inc",
     category: "Food",
-    description: "A mild spice mix to season rice, stews, and proteins.",
+    description: "A rose-scented, organic, and locally sourced blend of botanicals.",
+  },
+    {
+    id: "starter-5",
+    name: "Mini Hoff Ø30 Planter",
+    business: "Goodee",
+    category: "Lifestyle",
+    description: "A small, stylish planter for indoor plants.",
   },
 ];
 
