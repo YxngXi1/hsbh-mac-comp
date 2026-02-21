@@ -85,7 +85,9 @@ export default function CreatorPage() {
             Category
             <select
               value={category}
-              onChange={(event) => setCategory(event.target.value as ItemCategory)}
+              onChange={(event) =>
+                setCategory(event.target.value as Exclude<ItemCategory, "Surprise">)
+              }
               className="rounded-md border border-zinc-600 bg-zinc-900 px-3 py-2"
             >
               {CREATOR_CATEGORY_OPTIONS.map((option) => (
